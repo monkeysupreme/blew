@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/blew_example.dir/link.d CMakeFiles/blew_example.dir/main.cpp.o -o blew_example  ../libblew.a /usr/lib64/libSDL2-2.0.so.0.3200.52 /usr/lib64/libspdlog.so.1.15.3 /usr/lib64/libfmt.so.11.1.4
