@@ -24,6 +24,9 @@ add_library(blew
         include/blew/layer_stack.h
         src/layer_stack.cpp
         include/blew/layers/game_layer.h
+        include/blew/input.h
+        src/input.cpp
+        include/blew/layers/input_layer.h
 )
 
 # Include public headers

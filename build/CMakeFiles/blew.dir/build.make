@@ -142,13 +142,28 @@ CMakeFiles/blew.dir/src/layer_stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/blew.dir/src/layer_stack.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/caleb/dev/blew/src/layer_stack.cpp -o CMakeFiles/blew.dir/src/layer_stack.cpp.s
 
+CMakeFiles/blew.dir/src/input.cpp.o: CMakeFiles/blew.dir/flags.make
+CMakeFiles/blew.dir/src/input.cpp.o: /home/caleb/dev/blew/src/input.cpp
+CMakeFiles/blew.dir/src/input.cpp.o: CMakeFiles/blew.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/caleb/dev/blew/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/blew.dir/src/input.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/blew.dir/src/input.cpp.o -MF CMakeFiles/blew.dir/src/input.cpp.o.d -o CMakeFiles/blew.dir/src/input.cpp.o -c /home/caleb/dev/blew/src/input.cpp
+
+CMakeFiles/blew.dir/src/input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/blew.dir/src/input.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/caleb/dev/blew/src/input.cpp > CMakeFiles/blew.dir/src/input.cpp.i
+
+CMakeFiles/blew.dir/src/input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/blew.dir/src/input.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/caleb/dev/blew/src/input.cpp -o CMakeFiles/blew.dir/src/input.cpp.s
+
 # Object files for target blew
 blew_OBJECTS = \
 "CMakeFiles/blew.dir/src/blew.cpp.o" \
 "CMakeFiles/blew.dir/src/application.cpp.o" \
 "CMakeFiles/blew.dir/src/window.cpp.o" \
 "CMakeFiles/blew.dir/src/log.cpp.o" \
-"CMakeFiles/blew.dir/src/layer_stack.cpp.o"
+"CMakeFiles/blew.dir/src/layer_stack.cpp.o" \
+"CMakeFiles/blew.dir/src/input.cpp.o"
 
 # External object files for target blew
 blew_EXTERNAL_OBJECTS =
@@ -158,9 +173,10 @@ libblew.a: CMakeFiles/blew.dir/src/application.cpp.o
 libblew.a: CMakeFiles/blew.dir/src/window.cpp.o
 libblew.a: CMakeFiles/blew.dir/src/log.cpp.o
 libblew.a: CMakeFiles/blew.dir/src/layer_stack.cpp.o
+libblew.a: CMakeFiles/blew.dir/src/input.cpp.o
 libblew.a: CMakeFiles/blew.dir/build.make
 libblew.a: CMakeFiles/blew.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/caleb/dev/blew/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libblew.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/caleb/dev/blew/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libblew.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/blew.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/blew.dir/link.txt --verbose=$(VERBOSE)
 

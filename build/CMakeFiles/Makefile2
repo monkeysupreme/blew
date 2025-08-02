@@ -107,12 +107,12 @@ examples/clean: examples/CMakeFiles/blew_example.dir/clean
 CMakeFiles/blew.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blew.dir/build.make CMakeFiles/blew.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blew.dir/build.make CMakeFiles/blew.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/caleb/dev/blew/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target blew"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/caleb/dev/blew/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target blew"
 .PHONY : CMakeFiles/blew.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/blew.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/caleb/dev/blew/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/caleb/dev/blew/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/blew.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/caleb/dev/blew/build/CMakeFiles 0
 .PHONY : CMakeFiles/blew.dir/rule
@@ -124,7 +124,7 @@ blew: CMakeFiles/blew.dir/rule
 # codegen rule for target.
 CMakeFiles/blew.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blew.dir/build.make CMakeFiles/blew.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/caleb/dev/blew/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target blew"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/caleb/dev/blew/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target blew"
 .PHONY : CMakeFiles/blew.dir/codegen
 
 # clean rule for target.
@@ -139,12 +139,12 @@ CMakeFiles/blew.dir/clean:
 examples/CMakeFiles/blew_example.dir/all: CMakeFiles/blew.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/blew_example.dir/build.make examples/CMakeFiles/blew_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/blew_example.dir/build.make examples/CMakeFiles/blew_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/caleb/dev/blew/build/CMakeFiles --progress-num=7,8 "Built target blew_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/caleb/dev/blew/build/CMakeFiles --progress-num=8,9 "Built target blew_example"
 .PHONY : examples/CMakeFiles/blew_example.dir/all
 
 # Build rule for subdir invocation for target.
 examples/CMakeFiles/blew_example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/caleb/dev/blew/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/caleb/dev/blew/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/blew_example.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/caleb/dev/blew/build/CMakeFiles 0
 .PHONY : examples/CMakeFiles/blew_example.dir/rule
@@ -156,7 +156,7 @@ blew_example: examples/CMakeFiles/blew_example.dir/rule
 # codegen rule for target.
 examples/CMakeFiles/blew_example.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/blew_example.dir/build.make examples/CMakeFiles/blew_example.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/caleb/dev/blew/build/CMakeFiles --progress-num=7,8 "Finished codegen for target blew_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/caleb/dev/blew/build/CMakeFiles --progress-num=8,9 "Finished codegen for target blew_example"
 .PHONY : examples/CMakeFiles/blew_example.dir/codegen
 
 # clean rule for target.

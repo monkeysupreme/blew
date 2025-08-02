@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/blew.dir/src/application.cpp.o.d"
   "CMakeFiles/blew.dir/src/blew.cpp.o"
   "CMakeFiles/blew.dir/src/blew.cpp.o.d"
+  "CMakeFiles/blew.dir/src/input.cpp.o"
+  "CMakeFiles/blew.dir/src/input.cpp.o.d"
   "CMakeFiles/blew.dir/src/layer_stack.cpp.o"
   "CMakeFiles/blew.dir/src/layer_stack.cpp.o.d"
   "CMakeFiles/blew.dir/src/log.cpp.o"

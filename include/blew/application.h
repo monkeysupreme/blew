@@ -1,7 +1,10 @@
 #pragma once
 
 #include "window.h"
+#include "input.h"
+#include "layer_stack.h"
 #include "layers/game_layer.h"
+#include "layers/input_layer.h"
 
 #include <string>
 #include <iostream>
@@ -19,10 +22,12 @@ namespace blew {
 
         void Start();
 
+        void PushLayer(const std::shared_ptr<Layer>& layer);
+
     private:
         std::string m_Name;
 
-        std::shared_ptr<GameLayer> m_GameLayer;
+        LayerStack m_LayerStack;
 
     private:
         void InitSDL();

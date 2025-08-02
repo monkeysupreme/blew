@@ -306,8 +306,8 @@ examples/CMakeFiles/blew_example.dir/main.cpp.o: \
  /usr/include/SDL2/SDL_render.h /usr/include/SDL2/SDL_shape.h \
  /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h \
  /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h \
- /usr/include/SDL2/SDL_misc.h \
- /home/caleb/dev/blew/include/blew/layers/game_layer.h \
+ /usr/include/SDL2/SDL_misc.h /home/caleb/dev/blew/include/blew/input.h \
+ /home/caleb/dev/blew/include/blew/layer_stack.h \
  /home/caleb/dev/blew/include/blew/layer.h /usr/include/c++/15/memory \
  /usr/include/c++/15/bits/stl_tempbuf.h \
  /usr/include/c++/15/bits/stl_uninitialized.h \
@@ -323,7 +323,12 @@ examples/CMakeFiles/blew_example.dir/main.cpp.o: \
  /usr/include/c++/15/bits/atomic_lockfree_defines.h \
  /usr/include/c++/15/backward/auto_ptr.h \
  /usr/include/c++/15/pstl/glue_memory_defs.h \
- /usr/include/c++/15/pstl/execution_defs.h \
+ /usr/include/c++/15/pstl/execution_defs.h /usr/include/c++/15/vector \
+ /usr/include/c++/15/bits/stl_vector.h \
+ /usr/include/c++/15/bits/stl_bvector.h \
+ /usr/include/c++/15/bits/vector.tcc \
+ /home/caleb/dev/blew/include/blew/layers/game_layer.h \
+ /home/caleb/dev/blew/include/blew/layers/input_layer.h \
  /home/caleb/dev/blew/include/blew/log.h /usr/include/memory.h \
  /usr/include/spdlog/spdlog.h /usr/include/spdlog/common.h \
  /usr/include/spdlog/details/null_mutex.h /usr/include/c++/15/atomic \
@@ -339,10 +344,7 @@ examples/CMakeFiles/blew_example.dir/main.cpp.o: \
  /usr/include/c++/15/bits/hashtable_policy.h \
  /usr/include/c++/15/bits/enable_special_members.h \
  /usr/include/c++/15/bits/node_handle.h \
- /usr/include/c++/15/bits/erase_if.h /usr/include/c++/15/vector \
- /usr/include/c++/15/bits/stl_vector.h \
- /usr/include/c++/15/bits/stl_bvector.h \
- /usr/include/c++/15/bits/vector.tcc /usr/include/c++/15/array \
+ /usr/include/c++/15/bits/erase_if.h /usr/include/c++/15/array \
  /usr/include/c++/15/compare /usr/include/spdlog/fmt/fmt.h \
  /usr/include/fmt/base.h /usr/include/fmt/format.h \
  /usr/include/fmt/base.h /usr/include/c++/15/cstring \
@@ -401,5 +403,4 @@ examples/CMakeFiles/blew_example.dir/main.cpp.o: \
  /usr/include/spdlog/details/file_helper-inl.h \
  /usr/include/spdlog/sinks/base_sink.h \
  /usr/include/spdlog/sinks/base_sink-inl.h \
- /usr/include/spdlog/sinks/basic_file_sink-inl.h \
- /home/caleb/dev/blew/include/blew/layer_stack.h
+ /usr/include/spdlog/sinks/basic_file_sink-inl.h

@@ -11,10 +11,11 @@ namespace blew {
     Application::Application(const std::string& name)
     {
         m_Name = name;
-        m_GameLayer = std::make_shared<GameLayer>();
-
         InitSDL();
         InitWindow();
+
+        PushLayer(std::make_shared<InputLayer>());
+        PushLayer(std::make_shared<GameLayer>());
     }
 
     Application::~Application()
@@ -57,6 +58,8 @@ namespace blew {
 
         while (running)
         {
+            Input::Update();
+
             while (SDL_PollEvent(&event))
             {
                 if (event.type == SDL_QUIT)
@@ -64,16 +67,36 @@ namespace blew {
                     running = false;
                 }
 
-                m_GameLayer->OnEvent(event);
+                for (auto& layer : m_LayerStack)
+                {
+                    layer->OnEvent(event);
+                    if (auto game_layer = std::dynamic_pointer_cast<GameLayer>(layer))
+                    {
+                        game_layer->SetRenderer(renderer_ptr);
+                    }
+                }
             }
-            SDL_SetRenderDrawColor(renderer_ptr, 255, 0, 0, 255);
+
+            SDL_SetRenderDrawColor(renderer_ptr, 0, 0, 0, 255);
             SDL_RenderClear(renderer_ptr);
+
+            for (auto& layer : m_LayerStack)
+            {
+                layer->OnUpdate();
+                layer->OnRender();
+            }
+
             SDL_RenderPresent(renderer_ptr);
         }
 
         SDL_DestroyRenderer(renderer_ptr);
         SDL_DestroyWindow(WindowPtr->GetSdlWindow());
         SDL_Quit();
+    }
+
+    void Application::PushLayer(const std::shared_ptr<Layer> &layer)
+    {
+        m_LayerStack.PushLayer(layer);
     }
 
 }

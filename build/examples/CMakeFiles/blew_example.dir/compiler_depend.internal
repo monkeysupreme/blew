@@ -5,9 +5,11 @@ examples/CMakeFiles/blew_example.dir/main.cpp.o
  /home/caleb/dev/blew/examples/main.cpp
  /home/caleb/dev/blew/include/blew/application.h
  /home/caleb/dev/blew/include/blew/blew.h
+ /home/caleb/dev/blew/include/blew/input.h
  /home/caleb/dev/blew/include/blew/layer.h
  /home/caleb/dev/blew/include/blew/layer_stack.h
  /home/caleb/dev/blew/include/blew/layers/game_layer.h
+ /home/caleb/dev/blew/include/blew/layers/input_layer.h
  /home/caleb/dev/blew/include/blew/log.h
  /home/caleb/dev/blew/include/blew/window.h
  /usr/include/SDL2/SDL.h

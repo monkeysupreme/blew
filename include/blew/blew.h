@@ -4,6 +4,7 @@
 #include "log.h"
 #include "layer.h"
 #include "layer_stack.h"
+#include "input.h"
 #include <iostream>
 
 namespace blew {
