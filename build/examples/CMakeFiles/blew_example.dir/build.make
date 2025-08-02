@@ -100,6 +100,15 @@ examples/blew_example: libblew.a
 examples/blew_example: /usr/lib64/libSDL2-2.0.so.0.3200.52
 examples/blew_example: /usr/lib64/libspdlog.so.1.15.3
 examples/blew_example: /usr/lib64/libfmt.so.11.1.4
+examples/blew_example: /usr/lib64/libfltk_images.so
+examples/blew_example: /usr/lib64/libfltk_forms.so
+examples/blew_example: /usr/lib64/libfltk_gl.so
+examples/blew_example: /usr/lib64/libfltk.so
+examples/blew_example: /usr/lib64/libSM.so
+examples/blew_example: /usr/lib64/libICE.so
+examples/blew_example: /usr/lib64/libX11.so
+examples/blew_example: /usr/lib64/libXext.so
+examples/blew_example: /usr/lib64/libm.so
 examples/blew_example: examples/CMakeFiles/blew_example.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/caleb/dev/blew/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable blew_example"
 	cd /home/caleb/dev/blew/build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/blew_example.dir/link.txt --verbose=$(VERBOSE)

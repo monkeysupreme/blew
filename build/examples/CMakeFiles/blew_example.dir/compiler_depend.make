@@ -11,6 +11,18 @@ examples/CMakeFiles/blew_example.dir/main.cpp.o: /home/caleb/dev/blew/examples/m
   /home/caleb/dev/blew/include/blew/layers/input_layer.h \
   /home/caleb/dev/blew/include/blew/log.h \
   /home/caleb/dev/blew/include/blew/window.h \
+  /usr/include/FL/Enumerations.H \
+  /usr/include/FL/Fl.H \
+  /usr/include/FL/Fl_Bitmap.H \
+  /usr/include/FL/Fl_Button.H \
+  /usr/include/FL/Fl_Export.H \
+  /usr/include/FL/Fl_Group.H \
+  /usr/include/FL/Fl_Image.H \
+  /usr/include/FL/Fl_Widget.H \
+  /usr/include/FL/Fl_Window.H \
+  /usr/include/FL/abi-version.h \
+  /usr/include/FL/fl_types.h \
+  /usr/include/FL/fl_utf8.h \
   /usr/include/SDL2/SDL.h \
   /usr/include/SDL2/SDL_assert.h \
   /usr/include/SDL2/SDL_atomic.h \
@@ -569,12 +581,75 @@ examples/blew_example: libblew.a \
   /usr/lib/gcc/x86_64-redhat-linux/15/libgcc.a \
   /usr/lib/gcc/x86_64-redhat-linux/15/libgcc_s.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so \
+  /usr/lib64/libGLX.so.0 \
+  /usr/lib64/libGLdispatch.so.0 \
+  /usr/lib64/libICE.so \
+  /usr/lib64/libOpenGL.so.0 \
   /usr/lib64/libSDL2-2.0.so.0.3200.52 \
+  /usr/lib64/libSM.so \
+  /usr/lib64/libX11.so \
+  /usr/lib64/libXau.so.6 \
+  /usr/lib64/libXcursor.so.1 \
+  /usr/lib64/libXext.so \
+  /usr/lib64/libXfixes.so.3 \
+  /usr/lib64/libXft.so.2 \
+  /usr/lib64/libXinerama.so.1 \
+  /usr/lib64/libXrender.so.1 \
+  /usr/lib64/libbrotlicommon.so.1 \
+  /usr/lib64/libbrotlidec.so.1 \
+  /usr/lib64/libbz2.so.1 \
   /usr/lib64/libc_nonshared.a \
+  /usr/lib64/libfltk.so \
+  /usr/lib64/libfltk_forms.so \
+  /usr/lib64/libfltk_gl.so \
+  /usr/lib64/libfltk_images.so \
   /usr/lib64/libfmt.so.11.1.4 \
+  /usr/lib64/libfontconfig.so.1 \
+  /usr/lib64/libfreetype.so.6 \
+  /usr/lib64/libglib-2.0.so.0 \
+  /usr/lib64/libgraphite2.so.3 \
+  /usr/lib64/libharfbuzz.so.0 \
+  /usr/lib64/libjpeg.so.62 \
+  /usr/lib64/liblzma.so.5 \
+  /usr/lib64/libpcre2-8.so.0 \
+  /usr/lib64/libpng16.so.16 \
   /usr/lib64/libspdlog.so.1.15.3 \
+  /usr/lib64/libuuid.so.1 \
+  /usr/lib64/libxcb.so.1 \
+  /usr/lib64/libxml2.so.2 \
+  /usr/lib64/libz.so.1 \
   examples/CMakeFiles/blew_example.dir/main.cpp.o
 
+
+/usr/lib64/libz.so.1:
+
+/usr/lib64/libxcb.so.1:
+
+/usr/lib64/libuuid.so.1:
+
+/usr/lib64/libpng16.so.16:
+
+/usr/lib64/liblzma.so.5:
+
+/usr/lib64/libjpeg.so.62:
+
+/usr/lib64/libharfbuzz.so.0:
+
+/usr/lib64/libglib-2.0.so.0:
+
+/usr/lib64/libfreetype.so.6:
+
+/usr/lib64/libbrotlidec.so.1:
+
+/usr/lib64/libbrotlicommon.so.1:
+
+/usr/lib64/libXinerama.so.1:
+
+/usr/lib64/libXcursor.so.1:
+
+/usr/lib64/libSM.so:
+
+/usr/lib64/libICE.so:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/libgcc_s.so:
 
@@ -603,6 +678,8 @@ examples/blew_example: libblew.a \
 /usr/lib/gcc/x86_64-redhat-linux/15/include/tbmintrin.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/syslimits.h:
+
+/usr/lib64/libfltk_forms.so:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h:
 
@@ -730,6 +807,8 @@ libblew.a:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/amxtileintrin.h:
 
+/usr/lib64/libOpenGL.so.0:
+
 /usr/lib/gcc/x86_64-redhat-linux/15/include/amxtf32intrin.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/avx10_2-512minmaxintrin.h:
@@ -766,8 +845,6 @@ libblew.a:
 
 /usr/include/stdc-predef.h:
 
-/usr/include/spdlog/version.h:
-
 /usr/include/spdlog/tweakme.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/avx10_2-512convertintrin.h:
@@ -800,6 +877,8 @@ libblew.a:
 
 /usr/include/spdlog/details/log_msg_buffer.h:
 
+/usr/lib64/libfltk.so:
+
 /usr/include/spdlog/details/log_msg_buffer-inl.h:
 
 /usr/include/spdlog/details/log_msg-inl.h:
@@ -831,6 +910,8 @@ libblew.a:
 /usr/include/spdlog/pattern_formatter-inl.h:
 
 /usr/include/locale.h:
+
+/usr/lib64/libbz2.so.1:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/avx512vnniintrin.h:
 
@@ -896,47 +977,45 @@ libblew.a:
 
 /usr/include/c++/15/utility:
 
-/usr/include/bits/waitflags.h:
+/usr/include/c++/15/typeinfo:
 
-/usr/include/c++/15/bits/streambuf_iterator.h:
+/usr/include/c++/15/unordered_map:
 
-/usr/include/bits/unistd_ext.h:
+/usr/include/c++/15/type_traits:
 
-/usr/lib/gcc/x86_64-redhat-linux/15/include/xtestintrin.h:
+/usr/include/c++/15/tr1/special_function_util.h:
 
-/usr/include/c++/15/bits/uses_allocator.h:
+/usr/lib64/libxml2.so.2:
 
-/usr/include/bits/uio_lim.h:
+/usr/include/c++/15/tr1/riemann_zeta.tcc:
 
-/usr/include/bits/environments.h:
+/usr/lib/gcc/x86_64-redhat-linux/15/include/amxmovrsintrin.h:
 
-/usr/include/bits/types/wint_t.h:
+/usr/include/c++/15/tr1/poly_laguerre.tcc:
 
-/usr/include/c++/15/bits/refwrap.h:
+/usr/include/c++/15/tr1/poly_hermite.tcc:
 
-/usr/include/bits/types/struct_statx_timestamp.h:
+/usr/include/c++/15/tr1/modified_bessel_func.tcc:
+
+/usr/lib64/libspdlog.so.1.15.3:
+
+/usr/include/c++/15/tr1/legendre_function.tcc:
 
 /usr/include/c++/15/bits/stl_tempbuf.h:
 
 /usr/include/bits/types/struct_sched_param.h:
 
-/usr/include/bits/posix_opt.h:
-
-/usr/include/c++/15/bits/std_abs.h:
-
 /usr/include/bits/types/error_t.h:
 
-/usr/lib/gcc/x86_64-redhat-linux/15/include/avxifmaintrin.h:
-
-/usr/include/bits/types/clockid_t.h:
-
-/usr/include/c++/15/typeinfo:
-
 /usr/include/bits/types/__sigset_t.h:
+
+/usr/lib64/libXft.so.2:
 
 /usr/include/bits/types/__FILE.h:
 
 /usr/include/bits/types.h:
+
+/usr/lib64/libGLX.so.0:
 
 /usr/include/c++/15/debug/assertions.h:
 
@@ -978,8 +1057,6 @@ libblew.a:
 
 /usr/include/c++/15/bits/uniform_int_dist.h:
 
-/usr/include/bits/select.h:
-
 /usr/include/SDL2/SDL_quit.h:
 
 /usr/include/c++/15/x86_64-redhat-linux/bits/gthr-default.h:
@@ -996,15 +1073,19 @@ libblew.a:
 
 /usr/include/bits/typesizes.h:
 
+/usr/include/bits/posix_opt.h:
+
+/usr/include/c++/15/bits/std_abs.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/15/include/x86gprintrin.h:
+
+/usr/include/SDL2/SDL_filesystem.h:
+
 /usr/lib64/libm.so:
 
 /usr/include/wctype.h:
 
 /usr/include/bits/fp-logb.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/15/include/x86gprintrin.h:
-
-/usr/include/SDL2/SDL_filesystem.h:
 
 /usr/include/bits/mathcalls.h:
 
@@ -1014,9 +1095,13 @@ libblew.a:
 
 /usr/include/bits/math-vector.h:
 
+/usr/lib64/libXext.so:
+
 /usr/include/sys/types.h:
 
 /usr/include/c++/15/bits/stl_pair.h:
+
+/usr/lib64/libfontconfig.so.1:
 
 /usr/include/bits/libc-header-start.h:
 
@@ -1024,15 +1109,13 @@ libblew.a:
 
 /usr/include/c++/15/pstl/execution_defs.h:
 
+/usr/lib64/libfltk_gl.so:
+
 /usr/include/bits/getopt_core.h:
 
 /usr/include/bits/flt-eval-method.h:
 
 /usr/include/bits/floatn.h:
-
-/usr/include/c++/15/ostream:
-
-/usr/include/SDL2/SDL_audio.h:
 
 /usr/include/bits/struct_stat.h:
 
@@ -1050,6 +1133,10 @@ libblew.a:
 
 /usr/include/bits/types/__fpos_t.h:
 
+/usr/include/spdlog/version.h:
+
+/usr/include/FL/fl_types.h:
+
 /usr/lib/gcc/x86_64-redhat-linux/15/include/waitpkgintrin.h:
 
 /usr/include/c++/15/algorithm:
@@ -1060,61 +1147,39 @@ libblew.a:
 
 /usr/include/bits/syscall.h:
 
-/usr/include/c++/15/tr1/modified_bessel_func.tcc:
-
 /usr/lib/gcc/x86_64-redhat-linux/15/include/fxsrintrin.h:
 
 /usr/include/bits/libm-simd-decl-stubs.h:
 
-/usr/include/c++/15/ext/atomicity.h:
+/usr/lib/gcc/x86_64-redhat-linux/15/include/wbnoinvdintrin.h:
 
-/usr/include/spdlog/details/backtracer-inl.h:
+/usr/include/c++/15/bits/hashtable.h:
 
-/usr/include/bits/uintn-identity.h:
+/usr/include/bits/byteswap.h:
 
-/usr/include/SDL2/SDL_sensor.h:
-
-/usr/include/SDL2/SDL.h:
-
-/usr/include/c++/15/bits/stl_relops.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/15/include/avx512dqintrin.h:
-
-/usr/include/SDL2/SDL_config_unix.h:
-
-/usr/include/bits/struct_mutex.h:
-
-/usr/include/SDL2/SDL_keyboard.h:
-
-/usr/include/c++/15/bits/stl_heap.h:
-
-/usr/include/SDL2/SDL_scancode.h:
-
-/usr/include/SDL2/SDL_joystick.h:
-
-/usr/include/SDL2/SDL_blendmode.h:
+/usr/include/bits/timex.h:
 
 /usr/include/asm/unistd.h:
-
-/usr/include/bits/time64.h:
-
-/home/caleb/dev/blew/include/blew/window.h:
-
-/usr/include/c++/15/bits/ptr_traits.h:
-
-/usr/include/SDL2/SDL_haptic.h:
-
-/usr/include/c++/15/bits/alloc_traits.h:
-
-/usr/include/SDL2/SDL_guid.h:
-
-/usr/include/bits/types/time_t.h:
-
-/usr/include/c++/15/bits/ostream.h:
 
 /usr/include/asm/posix_types_64.h:
 
 /usr/include/c++/15/ext/alloc_traits.h:
+
+/usr/include/bits/locale.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/spdlog/pattern_formatter.h:
+
+/usr/include/c++/15/bits/vector.tcc:
+
+/usr/include/asm/posix_types.h:
+
+/usr/include/asm/bitsperlong.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/asm-generic/posix_types.h:
 
 /usr/include/SDL2/SDL_cpuinfo.h:
 
@@ -1123,10 +1188,6 @@ libblew.a:
 /usr/include/c++/15/vector:
 
 /usr/include/c++/15/bits/utility.h:
-
-/usr/include/c++/15/bits/charconv.h:
-
-/usr/include/SDL2/SDL_timer.h:
 
 /usr/include/bits/statx.h:
 
@@ -1140,11 +1201,23 @@ libblew.a:
 
 /usr/include/c++/15/bits/align.h:
 
-/usr/include/asm-generic/bitsperlong.h:
+/usr/include/bits/endian.h:
 
-/usr/include/asm/bitsperlong.h:
+/usr/include/SDL2/SDL_assert.h:
 
-/usr/include/bits/types/struct_timespec.h:
+/usr/include/SDL2/SDL_sensor.h:
+
+/usr/include/SDL2/SDL.h:
+
+/usr/include/spdlog/details/backtracer-inl.h:
+
+/usr/include/bits/uintn-identity.h:
+
+/usr/include/c++/15/bits/stl_relops.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/FL/Fl_Window.H:
 
 /usr/include/c++/15/bits/streambuf.tcc:
 
@@ -1152,29 +1225,107 @@ libblew.a:
 
 /home/caleb/dev/blew/include/blew/layer_stack.h:
 
-/usr/include/bits/time.h:
+/usr/include/asm/unistd_64.h:
 
-/usr/include/SDL2/SDL_atomic.h:
+/usr/include/c++/15/bits/this_thread_sleep.h:
+
+/usr/include/SDL2/SDL_locale.h:
+
+/usr/include/c++/15/ext/atomicity.h:
+
+/usr/include/FL/fl_utf8.h:
+
+/usr/include/bits/getopt_posix.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/bits/types/struct_statx_timestamp.h:
+
+/usr/include/FL/Fl_Button.H:
+
+/usr/include/FL/abi-version.h:
 
 /home/caleb/dev/blew/include/blew/layers/game_layer.h:
 
 /usr/include/c++/15/bits/hashtable_policy.h:
 
-/usr/lib/gcc/x86_64-redhat-linux/15/include/avx10_2mediaintrin.h:
+/usr/include/SDL2/SDL_blendmode.h:
 
-/usr/include/SDL2/SDL_gamecontroller.h:
+/usr/include/SDL2/SDL_joystick.h:
 
-/home/caleb/dev/blew/include/blew/blew.h:
+/usr/include/SDL2/SDL_guid.h:
+
+/usr/include/FL/Fl_Export.H:
 
 /usr/include/bits/types/clock_t.h:
 
-/usr/include/c++/15/pstl/glue_memory_defs.h:
+/usr/include/asm-generic/types.h:
 
-/usr/include/SDL2/SDL_pixels.h:
+/usr/lib/gcc/x86_64-redhat-linux/15/include/avx512dqintrin.h:
 
-/usr/include/bits/endian.h:
+/usr/include/SDL2/SDL_config_unix.h:
 
-/usr/include/SDL2/SDL_assert.h:
+/usr/include/SDL2/SDL_config.h:
+
+/usr/include/bits/types/struct_statx.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/15/include/shaintrin.h:
+
+/usr/include/c++/15/pstl/pstl_config.h:
+
+/usr/include/asm/errno.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/15/include/avx512ifmavlintrin.h:
+
+/usr/include/SDL2/SDL_keycode.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/SDL2/SDL_atomic.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/15/include/avxifmaintrin.h:
+
+/usr/include/bits/types/clockid_t.h:
+
+/usr/include/bits/types/struct_timespec.h:
+
+/usr/include/FL/Fl.H:
+
+/usr/lib64/crti.o:
+
+/usr/include/SDL2/SDL_clipboard.h:
+
+/usr/include/FL/Fl_Group.H:
+
+/usr/include/FL/Fl_Image.H:
+
+/usr/include/c++/15/bits/stl_bvector.h:
+
+/usr/include/SDL2/close_code.h:
+
+/usr/include/c++/15/bits/charconv.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/15/include/avx10_2mediaintrin.h:
+
+/home/caleb/dev/blew/include/blew/blew.h:
+
+/usr/include/SDL2/SDL_gamecontroller.h:
+
+/usr/lib64/libGLdispatch.so.0:
+
+/usr/include/SDL2/SDL_timer.h:
+
+/usr/include/bits/struct_mutex.h:
+
+/usr/include/SDL2/SDL_keyboard.h:
+
+/usr/include/c++/15/bits/stl_heap.h:
+
+/usr/include/SDL2/SDL_scancode.h:
+
+/usr/include/SDL2/SDL_haptic.h:
+
+/usr/include/c++/15/bits/alloc_traits.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/float.h:
 
@@ -1194,31 +1345,37 @@ libblew.a:
 
 /usr/include/alloca.h:
 
-/usr/lib64/crti.o:
+/usr/include/bits/time64.h:
 
-/usr/include/SDL2/SDL_clipboard.h:
+/home/caleb/dev/blew/include/blew/window.h:
 
-/usr/include/asm/unistd_64.h:
+/usr/include/c++/15/bits/ptr_traits.h:
 
-/usr/include/limits.h:
+/usr/include/SDL2/SDL_pixels.h:
 
-/usr/include/bits/waitstatus.h:
-
-/usr/include/c++/15/iterator:
-
-/usr/include/bits/timex.h:
-
-/usr/include/bits/byteswap.h:
-
-/usr/include/asm-generic/types.h:
+/usr/include/c++/15/pstl/glue_memory_defs.h:
 
 /usr/include/c++/15/initializer_list:
+
+/usr/lib64/libX11.so:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/prfchiintrin.h:
 
 /usr/include/bits/setjmp.h:
 
 /usr/include/SDL2/SDL_main.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so:
+
+/usr/include/c++/15/tr1/hypergeometric.tcc:
+
+/usr/include/c++/15/bits/std_mutex.h:
+
+/usr/include/c++/15/tuple:
+
+/usr/include/c++/15/bits/basic_string.tcc:
+
+/usr/include/c++/15/compare:
 
 /usr/include/spdlog/sinks/base_sink-inl.h:
 
@@ -1232,12 +1389,6 @@ libblew.a:
 
 /usr/include/c++/15/bits/istream.tcc:
 
-/usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so:
-
-/usr/include/c++/15/bits/std_mutex.h:
-
-/usr/include/c++/15/tr1/hypergeometric.tcc:
-
 /usr/include/asm-generic/int-ll64.h:
 
 /usr/include/c++/15/pstl/glue_algorithm_defs.h:
@@ -1247,6 +1398,10 @@ libblew.a:
 /usr/include/SDL2/SDL_version.h:
 
 /usr/include/c++/15/bits/unordered_map.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/uio_lim.h:
 
 /home/caleb/dev/blew/examples/main.cpp:
 
@@ -1260,14 +1415,6 @@ libblew.a:
 
 /usr/include/c++/15/bits/erase_if.h:
 
-/usr/lib/gcc/x86_64-redhat-linux/15/include/avx512vlbwintrin.h:
-
-/usr/include/bits/types/timer_t.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/15/include/wbnoinvdintrin.h:
-
-/usr/include/c++/15/bits/hashtable.h:
-
 /usr/include/bits/stdlib-float.h:
 
 /usr/include/c++/15/bits/version.h:
@@ -1280,9 +1427,23 @@ libblew.a:
 
 /usr/include/asm-generic/errno-base.h:
 
+/usr/include/bits/types/__fpos64_t.h:
+
+/usr/include/c++/15/ratio:
+
 /usr/include/bits/local_lim.h:
 
 /usr/include/c++/15/bits/specfun.h:
+
+/usr/include/bits/atomic_wide_counter.h:
+
+/usr/include/spdlog/details/registry.h:
+
+/usr/include/c++/15/bits/move.h:
+
+/usr/include/SDL2/SDL_system.h:
+
+/usr/include/SDL2/SDL_surface.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/adxintrin.h:
 
@@ -1290,39 +1451,11 @@ libblew.a:
 
 /usr/include/SDL2/SDL_stdinc.h:
 
-/usr/include/SDL2/SDL_config.h:
-
-/usr/include/bits/types/struct_statx.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/15/include/shaintrin.h:
-
-/usr/include/c++/15/pstl/pstl_config.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/15/include/avx512ifmavlintrin.h:
-
-/usr/include/SDL2/SDL_keycode.h:
-
-/usr/include/asm/errno.h:
-
 /usr/include/SDL2/SDL_hidapi.h:
 
 /usr/include/bits/statx-generic.h:
 
 /usr/include/bits/iscanonical.h:
-
-/usr/include/SDL2/SDL_surface.h:
-
-/usr/include/SDL2/SDL_system.h:
-
-/usr/include/bits/locale.h:
-
-/usr/include/sys/cdefs.h:
-
-/usr/include/spdlog/pattern_formatter.h:
-
-/usr/include/c++/15/bits/vector.tcc:
-
-/usr/include/asm/posix_types.h:
 
 /home/caleb/dev/blew/include/blew/application.h:
 
@@ -1338,37 +1471,55 @@ libblew.a:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/gfniintrin.h:
 
+/usr/include/FL/Enumerations.H:
+
 /usr/include/c++/15/bits/concept_check.h:
 
 /usr/include/c++/15/stdlib.h:
 
 /usr/include/SDL2/SDL_gesture.h:
 
-/usr/include/asm-generic/posix_types.h:
+/usr/include/FL/Fl_Widget.H:
 
 /usr/include/SDL2/SDL_video.h:
 
-/usr/include/bits/atomic_wide_counter.h:
+/usr/include/bits/types/time_t.h:
 
-/usr/include/spdlog/details/registry.h:
+/usr/include/c++/15/bits/ostream.h:
 
-/usr/include/c++/15/bits/move.h:
+/usr/lib/gcc/x86_64-redhat-linux/15/include/avx512vlbwintrin.h:
 
-/usr/include/c++/15/ratio:
+/usr/include/bits/types/timer_t.h:
 
-/usr/include/bits/types/__fpos64_t.h:
+/usr/include/bits/types/wint_t.h:
 
-/usr/include/c++/15/unordered_map:
+/usr/include/c++/15/bits/refwrap.h:
 
-/usr/include/c++/15/type_traits:
+/usr/include/bits/unistd_ext.h:
 
-/usr/include/bits/getopt_posix.h:
+/usr/lib/gcc/x86_64-redhat-linux/15/include/xtestintrin.h:
 
-/usr/include/asm-generic/errno.h:
+/usr/include/c++/15/bits/uses_allocator.h:
 
-/usr/include/SDL2/close_code.h:
+/usr/include/c++/15/tr1/exp_integral.tcc:
 
-/usr/include/c++/15/bits/stl_bvector.h:
+/usr/include/c++/15/cstdint:
+
+/usr/include/bits/waitflags.h:
+
+/usr/lib64/libpcre2-8.so.0:
+
+/usr/include/c++/15/bits/streambuf_iterator.h:
+
+/usr/include/limits.h:
+
+/usr/include/c++/15/iterator:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/SDL2/SDL_audio.h:
+
+/usr/include/c++/15/ostream:
 
 /usr/include/gnu/stubs-64.h:
 
@@ -1384,6 +1535,8 @@ libblew.a:
 
 /usr/include/c++/15/bit:
 
+/usr/lib64/libXfixes.so.3:
+
 /usr/include/c++/15/ctime:
 
 /usr/include/c++/15/x86_64-redhat-linux/bits/os_defines.h:
@@ -1396,11 +1549,17 @@ libblew.a:
 
 /usr/include/c++/15/bits/allocated_ptr.h:
 
-/usr/include/c++/15/tr1/riemann_zeta.tcc:
-
 /usr/include/c++/15/bits/allocator.h:
 
 /usr/include/c++/15/bits/atomic_base.h:
+
+/usr/include/spdlog/sinks/base_sink.h:
+
+/usr/include/c++/15/x86_64-redhat-linux/bits/gthr.h:
+
+/usr/include/c++/15/tr1/gamma.tcc:
+
+/usr/include/c++/15/bits/stl_multimap.h:
 
 /usr/include/c++/15/bits/atomic_lockfree_defines.h:
 
@@ -1455,14 +1614,6 @@ examples/CMakeFiles/blew_example.dir/main.cpp.o:
 /usr/include/c++/15/x86_64-redhat-linux/bits/atomic_word.h:
 
 /usr/include/c++/15/bits/functexcept.h:
-
-/usr/include/spdlog/sinks/base_sink.h:
-
-/usr/include/c++/15/x86_64-redhat-linux/bits/gthr.h:
-
-/usr/include/c++/15/bits/stl_multimap.h:
-
-/usr/include/c++/15/tr1/gamma.tcc:
 
 /usr/include/bits/types/__locale_t.h:
 
@@ -1532,6 +1683,8 @@ examples/CMakeFiles/blew_example.dir/main.cpp.o:
 
 /usr/include/c++/15/chrono:
 
+/usr/lib64/libXrender.so.1:
+
 /usr/include/bits/wchar.h:
 
 /usr/include/c++/15/bits/range_access.h:
@@ -1557,6 +1710,8 @@ examples/CMakeFiles/blew_example.dir/main.cpp.o:
 /usr/include/spdlog/sinks/sink-inl.h:
 
 /usr/include/c++/15/bits/shared_ptr_atomic.h:
+
+/usr/lib64/libfltk_images.so:
 
 /usr/include/bits/types/__mbstate_t.h:
 
@@ -1594,13 +1749,9 @@ examples/CMakeFiles/blew_example.dir/main.cpp.o:
 
 /usr/include/c++/15/bits/stringfwd.h:
 
-/usr/include/SDL2/SDL_locale.h:
-
-/usr/include/c++/15/bits/this_thread_sleep.h:
+/home/caleb/dev/blew/include/blew/layers/input_layer.h:
 
 /usr/include/SDL2/SDL_hints.h:
-
-/home/caleb/dev/blew/include/blew/layers/input_layer.h:
 
 /usr/include/c++/15/bits/unique_ptr.h:
 
@@ -1638,6 +1789,8 @@ examples/CMakeFiles/blew_example.dir/main.cpp.o:
 
 /usr/include/c++/15/ext/aligned_buffer.h:
 
+/usr/lib64/libXau.so.6:
+
 /usr/include/c++/15/ext/concurrence.h:
 
 /usr/include/c++/15/cmath:
@@ -1656,9 +1809,9 @@ examples/CMakeFiles/blew_example.dir/main.cpp.o:
 
 /usr/lib64/libSDL2-2.0.so.0.3200.52:
 
-/usr/include/bits/types/mbstate_t.h:
-
 /usr/include/c++/15/exception:
+
+/usr/include/bits/types/mbstate_t.h:
 
 /usr/include/c++/15/iostream:
 
@@ -1674,7 +1827,11 @@ examples/CMakeFiles/blew_example.dir/main.cpp.o:
 
 /usr/include/linux/stddef.h:
 
+/usr/include/FL/Fl_Bitmap.H:
+
 /usr/include/c++/15/limits:
+
+/usr/lib64/libgraphite2.so.3:
 
 /usr/include/SDL2/SDL_platform.h:
 
@@ -1697,25 +1854,3 @@ examples/CMakeFiles/blew_example.dir/main.cpp.o:
 /usr/include/SDL2/SDL_shape.h:
 
 /usr/include/c++/15/tr1/bessel_function.tcc:
-
-/usr/include/c++/15/cstdint:
-
-/usr/include/c++/15/tr1/exp_integral.tcc:
-
-/usr/lib64/libspdlog.so.1.15.3:
-
-/usr/include/c++/15/tr1/legendre_function.tcc:
-
-/usr/include/c++/15/tr1/poly_hermite.tcc:
-
-/usr/lib/gcc/x86_64-redhat-linux/15/include/amxmovrsintrin.h:
-
-/usr/include/c++/15/tr1/poly_laguerre.tcc:
-
-/usr/include/c++/15/tr1/special_function_util.h:
-
-/usr/include/c++/15/bits/basic_string.tcc:
-
-/usr/include/c++/15/compare:
-
-/usr/include/c++/15/tuple:
