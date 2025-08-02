@@ -581,75 +581,12 @@ examples/blew_example: libblew.a \
   /usr/lib/gcc/x86_64-redhat-linux/15/libgcc.a \
   /usr/lib/gcc/x86_64-redhat-linux/15/libgcc_s.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so \
-  /usr/lib64/libGLX.so.0 \
-  /usr/lib64/libGLdispatch.so.0 \
-  /usr/lib64/libICE.so \
-  /usr/lib64/libOpenGL.so.0 \
   /usr/lib64/libSDL2-2.0.so.0.3200.52 \
-  /usr/lib64/libSM.so \
-  /usr/lib64/libX11.so \
-  /usr/lib64/libXau.so.6 \
-  /usr/lib64/libXcursor.so.1 \
-  /usr/lib64/libXext.so \
-  /usr/lib64/libXfixes.so.3 \
-  /usr/lib64/libXft.so.2 \
-  /usr/lib64/libXinerama.so.1 \
-  /usr/lib64/libXrender.so.1 \
-  /usr/lib64/libbrotlicommon.so.1 \
-  /usr/lib64/libbrotlidec.so.1 \
-  /usr/lib64/libbz2.so.1 \
   /usr/lib64/libc_nonshared.a \
-  /usr/lib64/libfltk.so \
-  /usr/lib64/libfltk_forms.so \
-  /usr/lib64/libfltk_gl.so \
-  /usr/lib64/libfltk_images.so \
   /usr/lib64/libfmt.so.11.1.4 \
-  /usr/lib64/libfontconfig.so.1 \
-  /usr/lib64/libfreetype.so.6 \
-  /usr/lib64/libglib-2.0.so.0 \
-  /usr/lib64/libgraphite2.so.3 \
-  /usr/lib64/libharfbuzz.so.0 \
-  /usr/lib64/libjpeg.so.62 \
-  /usr/lib64/liblzma.so.5 \
-  /usr/lib64/libpcre2-8.so.0 \
-  /usr/lib64/libpng16.so.16 \
   /usr/lib64/libspdlog.so.1.15.3 \
-  /usr/lib64/libuuid.so.1 \
-  /usr/lib64/libxcb.so.1 \
-  /usr/lib64/libxml2.so.2 \
-  /usr/lib64/libz.so.1 \
   examples/CMakeFiles/blew_example.dir/main.cpp.o
 
-
-/usr/lib64/libz.so.1:
-
-/usr/lib64/libxcb.so.1:
-
-/usr/lib64/libuuid.so.1:
-
-/usr/lib64/libpng16.so.16:
-
-/usr/lib64/liblzma.so.5:
-
-/usr/lib64/libjpeg.so.62:
-
-/usr/lib64/libharfbuzz.so.0:
-
-/usr/lib64/libglib-2.0.so.0:
-
-/usr/lib64/libfreetype.so.6:
-
-/usr/lib64/libbrotlidec.so.1:
-
-/usr/lib64/libbrotlicommon.so.1:
-
-/usr/lib64/libXinerama.so.1:
-
-/usr/lib64/libXcursor.so.1:
-
-/usr/lib64/libSM.so:
-
-/usr/lib64/libICE.so:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/libgcc_s.so:
 
@@ -678,8 +615,6 @@ examples/blew_example: libblew.a \
 /usr/lib/gcc/x86_64-redhat-linux/15/include/tbmintrin.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/syslimits.h:
-
-/usr/lib64/libfltk_forms.so:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h:
 
@@ -807,8 +742,6 @@ libblew.a:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/amxtileintrin.h:
 
-/usr/lib64/libOpenGL.so.0:
-
 /usr/lib/gcc/x86_64-redhat-linux/15/include/amxtf32intrin.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/avx10_2-512minmaxintrin.h:
@@ -877,8 +810,6 @@ libblew.a:
 
 /usr/include/spdlog/details/log_msg_buffer.h:
 
-/usr/lib64/libfltk.so:
-
 /usr/include/spdlog/details/log_msg_buffer-inl.h:
 
 /usr/include/spdlog/details/log_msg-inl.h:
@@ -910,8 +841,6 @@ libblew.a:
 /usr/include/spdlog/pattern_formatter-inl.h:
 
 /usr/include/locale.h:
-
-/usr/lib64/libbz2.so.1:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/avx512vnniintrin.h:
 
@@ -985,8 +914,6 @@ libblew.a:
 
 /usr/include/c++/15/tr1/special_function_util.h:
 
-/usr/lib64/libxml2.so.2:
-
 /usr/include/c++/15/tr1/riemann_zeta.tcc:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/amxmovrsintrin.h:
@@ -1009,13 +936,9 @@ libblew.a:
 
 /usr/include/bits/types/__sigset_t.h:
 
-/usr/lib64/libXft.so.2:
-
 /usr/include/bits/types/__FILE.h:
 
 /usr/include/bits/types.h:
-
-/usr/lib64/libGLX.so.0:
 
 /usr/include/c++/15/debug/assertions.h:
 
@@ -1095,21 +1018,15 @@ libblew.a:
 
 /usr/include/bits/math-vector.h:
 
-/usr/lib64/libXext.so:
-
 /usr/include/sys/types.h:
 
 /usr/include/c++/15/bits/stl_pair.h:
-
-/usr/lib64/libfontconfig.so.1:
 
 /usr/include/bits/libc-header-start.h:
 
 /usr/include/bits/types/struct_FILE.h:
 
 /usr/include/c++/15/pstl/execution_defs.h:
-
-/usr/lib64/libfltk_gl.so:
 
 /usr/include/bits/getopt_core.h:
 
@@ -1311,8 +1228,6 @@ libblew.a:
 
 /usr/include/SDL2/SDL_gamecontroller.h:
 
-/usr/lib64/libGLdispatch.so.0:
-
 /usr/include/SDL2/SDL_timer.h:
 
 /usr/include/bits/struct_mutex.h:
@@ -1356,8 +1271,6 @@ libblew.a:
 /usr/include/c++/15/pstl/glue_memory_defs.h:
 
 /usr/include/c++/15/initializer_list:
-
-/usr/lib64/libX11.so:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/prfchiintrin.h:
 
@@ -1507,8 +1420,6 @@ libblew.a:
 
 /usr/include/bits/waitflags.h:
 
-/usr/lib64/libpcre2-8.so.0:
-
 /usr/include/c++/15/bits/streambuf_iterator.h:
 
 /usr/include/limits.h:
@@ -1534,8 +1445,6 @@ libblew.a:
 /usr/include/bits/posix1_lim.h:
 
 /usr/include/c++/15/bit:
-
-/usr/lib64/libXfixes.so.3:
 
 /usr/include/c++/15/ctime:
 
@@ -1683,8 +1592,6 @@ examples/CMakeFiles/blew_example.dir/main.cpp.o:
 
 /usr/include/c++/15/chrono:
 
-/usr/lib64/libXrender.so.1:
-
 /usr/include/bits/wchar.h:
 
 /usr/include/c++/15/bits/range_access.h:
@@ -1710,8 +1617,6 @@ examples/CMakeFiles/blew_example.dir/main.cpp.o:
 /usr/include/spdlog/sinks/sink-inl.h:
 
 /usr/include/c++/15/bits/shared_ptr_atomic.h:
-
-/usr/lib64/libfltk_images.so:
 
 /usr/include/bits/types/__mbstate_t.h:
 
@@ -1789,8 +1694,6 @@ examples/CMakeFiles/blew_example.dir/main.cpp.o:
 
 /usr/include/c++/15/ext/aligned_buffer.h:
 
-/usr/lib64/libXau.so.6:
-
 /usr/include/c++/15/ext/concurrence.h:
 
 /usr/include/c++/15/cmath:
@@ -1830,8 +1733,6 @@ examples/CMakeFiles/blew_example.dir/main.cpp.o:
 /usr/include/FL/Fl_Bitmap.H:
 
 /usr/include/c++/15/limits:
-
-/usr/lib64/libgraphite2.so.3:
 
 /usr/include/SDL2/SDL_platform.h:
 

@@ -16,7 +16,9 @@ public:
         switch (event.type)
         {
             case SDL_KEYDOWN:
-                blew::Logger::Get()->info("Key Pressed: {}", SDL_GetKeyName(event.key.keysym.sym));
+                if (event.key.keysym.sym == SDLK_w) {
+
+                }
             default:
                 break;
         }

@@ -327,6 +327,7 @@ CMakeFiles/blew.dir/src/blew.cpp.o: /home/caleb/dev/blew/src/blew.cpp \
  /usr/include/c++/15/bits/stl_bvector.h \
  /usr/include/c++/15/bits/vector.tcc \
  /home/caleb/dev/blew/include/blew/layers/game_layer.h \
+ /home/caleb/dev/blew/include/blew/entity.h \
  /home/caleb/dev/blew/include/blew/layers/input_layer.h \
  /home/caleb/dev/blew/include/blew/log.h /usr/include/memory.h \
  /usr/include/spdlog/spdlog.h /usr/include/spdlog/common.h \

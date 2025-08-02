@@ -190,6 +190,30 @@ src/blew.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blew.dir/build.make CMakeFiles/blew.dir/src/blew.cpp.s
 .PHONY : src/blew.cpp.s
 
+src/entity.o: src/entity.cpp.o
+.PHONY : src/entity.o
+
+# target to build an object file
+src/entity.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blew.dir/build.make CMakeFiles/blew.dir/src/entity.cpp.o
+.PHONY : src/entity.cpp.o
+
+src/entity.i: src/entity.cpp.i
+.PHONY : src/entity.i
+
+# target to preprocess a source file
+src/entity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blew.dir/build.make CMakeFiles/blew.dir/src/entity.cpp.i
+.PHONY : src/entity.cpp.i
+
+src/entity.s: src/entity.cpp.s
+.PHONY : src/entity.s
+
+# target to generate assembly for a file
+src/entity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blew.dir/build.make CMakeFiles/blew.dir/src/entity.cpp.s
+.PHONY : src/entity.cpp.s
+
 src/input.o: src/input.cpp.o
 .PHONY : src/input.o
 
@@ -302,6 +326,9 @@ help:
 	@echo "... src/blew.o"
 	@echo "... src/blew.i"
 	@echo "... src/blew.s"
+	@echo "... src/entity.o"
+	@echo "... src/entity.i"
+	@echo "... src/entity.s"
 	@echo "... src/input.o"
 	@echo "... src/input.i"
 	@echo "... src/input.s"

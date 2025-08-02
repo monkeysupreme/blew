@@ -9,7 +9,6 @@ option(BUILD_SHARED_LIBS "Build shared libraries" OFF)
 
 find_package(SDL2 REQUIRED)
 find_package(spdlog REQUIRED)
-find_package(FLTK REQUIRED)
 
 
 # Engine Library
@@ -29,6 +28,8 @@ add_library(blew
         include/blew/input.h
         src/input.cpp
         include/blew/layers/input_layer.h
+        include/blew/entity.h
+        src/entity.cpp
 )
 
 include_directories(${FLTK_INCLUDE_DIR})
@@ -40,10 +41,6 @@ target_include_directories(blew
 
 target_link_libraries(blew PRIVATE SDL2::SDL2)
 target_link_libraries(blew PRIVATE spdlog::spdlog)
-target_link_libraries(blew PRIVATE blew ${FLTK_LIBRARIES})
-
-target_compile_features(blew PUBLIC cxx_std_17)
-
 
 # Create examples
 add_subdirectory(examples)

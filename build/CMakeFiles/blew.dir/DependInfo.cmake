@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/caleb/dev/blew/src/application.cpp" "CMakeFiles/blew.dir/src/application.cpp.o" "gcc" "CMakeFiles/blew.dir/src/application.cpp.o.d"
   "/home/caleb/dev/blew/src/blew.cpp" "CMakeFiles/blew.dir/src/blew.cpp.o" "gcc" "CMakeFiles/blew.dir/src/blew.cpp.o.d"
+  "/home/caleb/dev/blew/src/entity.cpp" "CMakeFiles/blew.dir/src/entity.cpp.o" "gcc" "CMakeFiles/blew.dir/src/entity.cpp.o.d"
   "/home/caleb/dev/blew/src/input.cpp" "CMakeFiles/blew.dir/src/input.cpp.o" "gcc" "CMakeFiles/blew.dir/src/input.cpp.o.d"
   "/home/caleb/dev/blew/src/layer_stack.cpp" "CMakeFiles/blew.dir/src/layer_stack.cpp.o" "gcc" "CMakeFiles/blew.dir/src/layer_stack.cpp.o.d"
   "/home/caleb/dev/blew/src/log.cpp" "CMakeFiles/blew.dir/src/log.cpp.o" "gcc" "CMakeFiles/blew.dir/src/log.cpp.o.d"
