@@ -1,2 +1,2 @@
-/usr/bin/ar qc libblew.a CMakeFiles/blew.dir/src/blew.cpp.o CMakeFiles/blew.dir/src/application.cpp.o CMakeFiles/blew.dir/src/window.cpp.o CMakeFiles/blew.dir/src/log.cpp.o CMakeFiles/blew.dir/src/layer_stack.cpp.o CMakeFiles/blew.dir/src/input.cpp.o CMakeFiles/blew.dir/src/entity.cpp.o
+/usr/bin/ar qc libblew.a CMakeFiles/blew.dir/src/blew.cpp.o CMakeFiles/blew.dir/src/application.cpp.o CMakeFiles/blew.dir/src/window.cpp.o CMakeFiles/blew.dir/src/log.cpp.o CMakeFiles/blew.dir/src/layer_stack.cpp.o CMakeFiles/blew.dir/src/input.cpp.o CMakeFiles/blew.dir/src/entity.cpp.o CMakeFiles/blew.dir/src/camera.cpp.o
 /usr/bin/ranlib libblew.a

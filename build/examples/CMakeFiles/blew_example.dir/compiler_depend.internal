@@ -5,6 +5,8 @@ examples/CMakeFiles/blew_example.dir/main.cpp.o
  /home/caleb/dev/blew/examples/main.cpp
  /home/caleb/dev/blew/include/blew/application.h
  /home/caleb/dev/blew/include/blew/blew.h
+ /home/caleb/dev/blew/include/blew/camera.h
+ /home/caleb/dev/blew/include/blew/entity.h
  /home/caleb/dev/blew/include/blew/input.h
  /home/caleb/dev/blew/include/blew/layer.h
  /home/caleb/dev/blew/include/blew/layer_stack.h
@@ -12,18 +14,6 @@ examples/CMakeFiles/blew_example.dir/main.cpp.o
  /home/caleb/dev/blew/include/blew/layers/input_layer.h
  /home/caleb/dev/blew/include/blew/log.h
  /home/caleb/dev/blew/include/blew/window.h
- /usr/include/FL/Enumerations.H
- /usr/include/FL/Fl.H
- /usr/include/FL/Fl_Bitmap.H
- /usr/include/FL/Fl_Button.H
- /usr/include/FL/Fl_Export.H
- /usr/include/FL/Fl_Group.H
- /usr/include/FL/Fl_Image.H
- /usr/include/FL/Fl_Widget.H
- /usr/include/FL/Fl_Window.H
- /usr/include/FL/abi-version.h
- /usr/include/FL/fl_types.h
- /usr/include/FL/fl_utf8.h
  /usr/include/SDL2/SDL.h
  /usr/include/SDL2/SDL_assert.h
  /usr/include/SDL2/SDL_atomic.h

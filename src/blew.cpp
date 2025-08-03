@@ -3,9 +3,8 @@
 namespace blew {
 
     void Run() {
-        auto* app = new Application("Sample App");
-        app->Start();
-        delete app;
+        Application app = Application("Blew Example");
+        app.Start();
     }
 
 }

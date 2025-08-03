@@ -18,3 +18,5 @@ namespace blew {
     };
 
 }
+
+#define BLEW_TRACE(x) blew::Logger::Get()->trace(x)

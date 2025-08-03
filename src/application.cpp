@@ -13,12 +13,11 @@ namespace blew {
         InitSDL();
         InitWindow();
 
-        PushLayer(std::make_shared<InputLayer>());
-        PushLayer(std::make_shared<GameLayer>());
-    }
+        auto game_layer = std::make_shared<GameLayer>();
+        auto input_layer = std::make_shared<InputLayer>(game_layer);
 
-    Application::~Application() {
-        delete WindowPtr;
+        PushLayer(input_layer);
+        PushLayer(game_layer);
     }
 
     void Application::InitSDL() {
@@ -31,11 +30,7 @@ namespace blew {
     }
 
     void Application::InitWindow() {
-        WindowPtr = new Window(
-                "",
-                800,
-                600
-        );
+        WindowPtr = std::make_unique<Window>("Game", 800, 600);
     }
 
     void Application::Start() {

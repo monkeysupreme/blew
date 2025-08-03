@@ -25,6 +25,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/lib64/cmake/spdlog/spdlogConfigTargets-release.cmake"
   "/usr/lib64/cmake/spdlog/spdlogConfigTargets.cmake"
   "/usr/lib64/cmake/spdlog/spdlogConfigVersion.cmake"
+  "/usr/share/cmake/glm/glmConfig.cmake"
+  "/usr/share/cmake/glm/glmConfigVersion.cmake"
   "/var/lib/snapd/snap/clion/359/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCXXInformation.cmake"
   "/var/lib/snapd/snap/clion/359/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake"
   "/var/lib/snapd/snap/clion/359/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"

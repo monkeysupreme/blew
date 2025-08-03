@@ -7,9 +7,9 @@
 
 class GameLayer : public blew::Layer {
 public:
-    GameLayer() : Layer("GameLayer") {
-        m_Entities.push_back(std::make_shared<blew::Entity>("Player", 100, 100, 50, 50, SDL_Color{0, 0, 255}));
-        m_Entities.push_back(std::make_shared<blew::Entity>("Enemy", 100, 100, 50, 50, SDL_Color{255, 0, 0}));
+    GameLayer() : Layer("GameLayer"), m_Camera(0, 0, 500, 500) {
+        AddEntity("Player", 100, 100, 50, 50, SDL_Color{0, 0, 255});
+        AddEntity("Enemy", 200, 100, 50, 50, SDL_Color{255, 0, 0});
     }
 
     void SetRenderer(SDL_Renderer* renderer) {
@@ -18,8 +18,12 @@ public:
 
     void OnUpdate() override {
         for (const auto& entity: m_Entities) {
-            entity->Draw(m_Renderer);
+            entity->Draw(m_Renderer, &m_Camera);
         }
+    }
+
+    void OnRender() override {
+        m_Camera.DrawFrame(m_Renderer);
     }
 
     void OnEvent(const SDL_Event& event) override {
@@ -55,8 +59,12 @@ public:
         }
     }
 
+    void AddEntity(const std::string& name, int x, int y, int w, int h, SDL_Color color) {
+        m_Entities.emplace_back(std::make_shared<blew::Entity>(name, x, y, w, h, color));
+    }
+
 private:
     SDL_Renderer* m_Renderer = nullptr;
-
     std::vector<std::shared_ptr<blew::Entity>> m_Entities;
+    blew::Camera m_Camera;
 };

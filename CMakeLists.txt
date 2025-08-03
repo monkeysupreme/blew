@@ -9,7 +9,7 @@ option(BUILD_SHARED_LIBS "Build shared libraries" OFF)
 
 find_package(SDL2 REQUIRED)
 find_package(spdlog REQUIRED)
-
+find_package(glm REQUIRED)
 
 # Engine Library
 add_library(blew
@@ -30,6 +30,8 @@ add_library(blew
         include/blew/layers/input_layer.h
         include/blew/entity.h
         src/entity.cpp
+        include/blew/camera.h
+        src/camera.cpp
 )
 
 include_directories(${FLTK_INCLUDE_DIR})
@@ -38,6 +40,7 @@ include_directories(${FLTK_INCLUDE_DIR})
 target_include_directories(blew
         PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
+target_include_directories(blew PUBLIC ${GLM_INCLUDE_DIRS})
 
 target_link_libraries(blew PRIVATE SDL2::SDL2)
 target_link_libraries(blew PRIVATE spdlog::spdlog)

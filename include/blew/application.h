@@ -14,11 +14,9 @@ namespace blew {
 
     class Application {
     public:
-        Window* WindowPtr{};
+        std::unique_ptr<Window> WindowPtr;
 
         explicit Application(const std::string& name);
-
-        ~Application();
 
         void Start();
 
