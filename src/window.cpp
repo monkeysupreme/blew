@@ -6,8 +6,7 @@
 
 namespace blew {
 
-    void Window::Show()
-    {
+    void Window::Show() {
         SDL_Window* window = SDL_CreateWindow(
                 m_Title.c_str(),
                 100, 100,
@@ -15,8 +14,7 @@ namespace blew {
                 SDL_WINDOW_SHOWN
         );
 
-        if (!window)
-        {
+        if (!window) {
             std::cerr << "Window::Show(...): Error creating window\n";
             SDL_Quit();
             exit(EXIT_FAILURE);
@@ -26,8 +24,7 @@ namespace blew {
     }
 
     SDL_Window* Window::GetSdlWindow() {
-        if (!m_Window)
-        {
+        if (!m_Window) {
             std::cerr << "Window::GetSdlWindow(...): Error fetching SDL window\n";
             SDL_Quit();
             exit(EXIT_FAILURE);

@@ -5,17 +5,20 @@
 
 namespace blew {
 
-    class Layer
-    {
+    class Layer {
     public:
-        explicit Layer(const std::string& name = "Layer") : m_Name(name)
-        {}
+        explicit Layer(const std::string& name = "Layer") : m_Name(name) {}
+
         virtual ~Layer() = default;
 
         virtual void OnAttach() {}
+
         virtual void OnDetach() {}
+
         virtual void OnUpdate() {}
+
         virtual void OnRender() {}
+
         virtual void OnEvent(const SDL_Event& event) {}
 
         const std::string& GetName() const { return m_Name; }

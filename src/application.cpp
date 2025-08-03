@@ -8,8 +8,7 @@
 
 namespace blew {
 
-    Application::Application(const std::string& name)
-    {
+    Application::Application(const std::string& name) {
         m_Name = name;
         InitSDL();
         InitWindow();
@@ -18,15 +17,12 @@ namespace blew {
         PushLayer(std::make_shared<GameLayer>());
     }
 
-    Application::~Application()
-    {
+    Application::~Application() {
         delete WindowPtr;
     }
 
-    void Application::InitSDL()
-    {
-        if (SDL_Init(SDL_INIT_VIDEO) != 0)
-        {
+    void Application::InitSDL() {
+        if (SDL_Init(SDL_INIT_VIDEO) != 0) {
             std::cerr << "Application::InitSDL(...): Error initializing SDL\n";
             exit(EXIT_FAILURE);
         }
@@ -34,17 +30,15 @@ namespace blew {
         blew::Logger::Get()->info("Initialized SDL for application");
     }
 
-    void Application::InitWindow()
-    {
+    void Application::InitWindow() {
         WindowPtr = new Window(
-            "",
-            800,
-            600
+                "",
+                800,
+                600
         );
     }
 
-    void Application::Start()
-    {
+    void Application::Start() {
         WindowPtr->Show();
 
         bool running = true;
@@ -56,22 +50,17 @@ namespace blew {
                 SDL_RENDERER_ACCELERATED
         );
 
-        while (running)
-        {
+        while (running) {
             Input::Update();
 
-            while (SDL_PollEvent(&event))
-            {
-                if (event.type == SDL_QUIT)
-                {
+            while (SDL_PollEvent(&event)) {
+                if (event.type == SDL_QUIT) {
                     running = false;
                 }
 
-                for (auto& layer : m_LayerStack)
-                {
+                for (auto& layer: m_LayerStack) {
                     layer->OnEvent(event);
-                    if (auto game_layer = std::dynamic_pointer_cast<GameLayer>(layer))
-                    {
+                    if (auto game_layer = std::dynamic_pointer_cast<GameLayer>(layer)) {
                         game_layer->SetRenderer(renderer_ptr);
                     }
                 }
@@ -80,8 +69,7 @@ namespace blew {
             SDL_SetRenderDrawColor(renderer_ptr, 0, 0, 0, 255);
             SDL_RenderClear(renderer_ptr);
 
-            for (auto& layer : m_LayerStack)
-            {
+            for (auto& layer: m_LayerStack) {
                 layer->OnUpdate();
                 layer->OnRender();
             }
@@ -94,8 +82,7 @@ namespace blew {
         SDL_Quit();
     }
 
-    void Application::PushLayer(const std::shared_ptr<Layer> &layer)
-    {
+    void Application::PushLayer(const std::shared_ptr<Layer>& layer) {
         m_LayerStack.PushLayer(layer);
     }
 

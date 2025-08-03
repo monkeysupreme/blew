@@ -6,14 +6,12 @@
 
 namespace blew {
 
-    class Window
-    {
+    class Window {
     public:
         Window(const std::string& title, int width, int height)
-               : m_Title(title),
-                m_Width(width),
-                m_Height(height)
-        {}
+                : m_Title(title),
+                  m_Width(width),
+                  m_Height(height) {}
 
         void Show();
 

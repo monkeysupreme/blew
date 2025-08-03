@@ -12,12 +12,12 @@
 
 namespace blew {
 
-    class Application
-    {
+    class Application {
     public:
         Window* WindowPtr{};
 
         explicit Application(const std::string& name);
+
         ~Application();
 
         void Start();
@@ -31,6 +31,7 @@ namespace blew {
 
     private:
         void InitSDL();
+
         void InitWindow();
     };
 

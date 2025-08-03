@@ -8,21 +8,18 @@ namespace blew {
 
     const uint8_t* Input::m_KeyState = nullptr;
 
-    void Input::Init()
-    {
+    void Input::Init() {
         SDL_PumpEvents();
         m_KeyState = SDL_GetKeyboardState(nullptr);
     }
 
-    void Input::Update()
-    {
+    void Input::Update() {
         SDL_PumpEvents();
         m_KeyState = SDL_GetKeyboardState(nullptr);
         // Mouse buttons...
     }
 
-    bool Input::IsKeyPressed(SDL_Scancode key)
-    {
+    bool Input::IsKeyPressed(SDL_Scancode key) {
         return m_KeyState[key];
     }
 }

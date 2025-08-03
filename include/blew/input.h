@@ -6,10 +6,10 @@
 
 namespace blew {
 
-    class Input
-    {
+    class Input {
     public:
         static void Init();
+
         static void Update();
 
         static bool IsKeyPressed(SDL_Scancode key);

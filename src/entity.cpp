@@ -6,14 +6,12 @@
 
 namespace blew {
 
-    void Entity::Draw(SDL_Renderer *renderer) const
-    {
+    void Entity::Draw(SDL_Renderer* renderer) const {
         SDL_SetRenderDrawColor(renderer, m_Color.r, m_Color.g, m_Color.b, m_Color.a);
         SDL_RenderFillRect(renderer, &m_Rect);
     }
 
-    void Entity::Move(int dx, int dy)
-    {
+    void Entity::Move(int dx, int dy) {
         m_Rect.x += dx;
         m_Rect.y += dy;
     }

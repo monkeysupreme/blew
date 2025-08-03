@@ -10,8 +10,7 @@ namespace blew {
 
     std::shared_ptr<spdlog::logger> Logger::s_Logger;
 
-    void Logger::Init()
-    {
+    void Logger::Init() {
         std::filesystem::create_directories("logs");
         s_Logger = spdlog::basic_logger_mt("blew_logger", "logs/app.log");
 
@@ -21,8 +20,7 @@ namespace blew {
         spdlog::set_default_logger(s_Logger);
     }
 
-    std::shared_ptr<spdlog::logger>& Logger::Get()
-    {
+    std::shared_ptr<spdlog::logger>& Logger::Get() {
         return s_Logger;
     }
 

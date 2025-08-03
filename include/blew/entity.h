@@ -5,28 +5,23 @@
 
 namespace blew {
 
-    class Entity
-    {
+    class Entity {
     public:
-        Entity(const std::string &name,
+        Entity(const std::string& name,
                int x, int y,
                int w, int h,
                SDL_Color color)
-                : m_Name(name), m_Rect({x, y, w, h}), m_Color(color)
-        {}
+                : m_Name(name), m_Rect({x, y, w, h}), m_Color(color) {}
 
-        void Draw(SDL_Renderer *renderer) const;
+        void Draw(SDL_Renderer* renderer) const;
 
         void Move(int dx, int dy);
 
-        const std::string &GetName() const
-        { return m_Name; }
+        const std::string& GetName() const { return m_Name; }
 
-        const SDL_Rect &GetRect() const
-        { return m_Rect; }
+        const SDL_Rect& GetRect() const { return m_Rect; }
 
-        void SetColor(SDL_Color color)
-        { m_Color = color; }
+        void SetColor(SDL_Color color) { m_Color = color; }
 
     private:
         std::string m_Name;
